@@ -59,7 +59,7 @@ public class BuscarYReemplazarApp extends Application {
 		resaltar = new CheckBox("Resaltar resultados");
 		
 		GridPane panel1 = new GridPane();
-		panel1.setStyle("-fx-background-color: green;");
+		//panel1.setStyle("-fx-background-color: green;");
 		panel1.setPadding(new Insets(5));
 		panel1.setAlignment(Pos.TOP_RIGHT);
 		panel1.setHgap(5);
@@ -101,7 +101,7 @@ public class BuscarYReemplazarApp extends Application {
 		panel2.setAlignment(Pos.TOP_LEFT);
 		panel2.setSpacing(5);
 		panel2.setPadding(new Insets(5));
-		panel2.setStyle("-fx-background-color: orange;");
+		//panel2.setStyle("-fx-background-color: orange;");
 		
 		BorderPane root= new BorderPane();
 		root.setCenter(panel1);
